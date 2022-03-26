@@ -1,0 +1,160 @@
+body
+{
+
+	min-width: 500px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	background: #f0f0f0;
+	overflow-x: hidden;
+}
+
+body.landing
+{
+	width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.see-my-face
+{
+	width: 16em;
+	height: 16em;
+	background-image: url(/images/igor-ryabtsov.jpg);
+	background-size: cover;
+	background-color: #c0c0c0;
+	border-radius: 100%;
+}
+
+div.see-my-small-face
+{
+	width: 4em;
+	height: 4em;
+	background-image: url(/images/igor-ryabtsov.jpg);
+	background-size: cover;
+	background-color: #c0c0c0;
+	border-radius: 100%;
+	float: left;
+}
+
+div.say-my-name
+{
+	font-size: 3rem;
+	font-weight: 300;
+	margin-bottom: 0.5rem;
+}
+
+@media (max-width: 575px) /* XS */
+{
+	div.magic-padding-contacts
+	{
+		padding-left: 70px !important;
+	}
+}
+
+@media (min-width: 576px) /* XS */
+{
+	div.magic-padding-contacts
+	{
+		padding-left: 95px !important;
+	}
+}
+
+@media (min-width: 768px) /* SM */
+{
+	div.magic-padding-contacts
+	{
+		padding-left: 180px !important;
+	}
+}
+
+@media (min-width: 992px) /* MD */
+{
+	div.magic-padding-contacts
+	{
+		padding-left: 65px !important;
+	}
+}
+
+@media (min-width: 1200px) /* LG */
+{
+	div.magic-padding-contacts
+	{
+		padding-left: 110px !important;
+	}
+}
+
+h1
+{
+	font-size: 2rem;
+	font-weight: 300;
+  	color: #337ab7;
+	margin-bottom: 1rem;
+}
+
+h1.and-unicorns
+{
+	color: #333333;
+	font-size: 3rem;
+	font-weight: 300;
+	line-height: 4rem;
+}
+
+a.cv-button
+{
+	width: 17rem;
+}
+
+div.contact-info-item
+{
+	line-height: 2.5rem;
+}
+
+div.contact-info-item-hint
+{
+	line-height: 1.5rem;
+}
+
+img.inline-logo
+{
+	width: 1.4rem;
+	height: 1.4rem;
+	vertical-align: middle;
+	margin-top: 0.6rem;
+	margin-right: 1rem;
+	opacity: 0.8;
+	float: left;
+}
+
+div.inline-logo-fake
+{
+	display: inline-block;
+	width: 1.4rem;
+	height: 1.4rem;
+	margin-right: 1rem;
+	float: left;
+}
+
+span.inline-caption
+{
+	vertical-align: middle;
+}
+
+a.gray-link, a.gray-link:hover, a.gray-link:visited
+{
+	color: #333333;
+}
+
+span.inline-caption-hint
+{
+	position: relative;
+	bottom: 0.6rem;
+	font-size: 0.8rem;
+}
+
+a.muted-link, a.muted-link:hover, a.muted-link:visited
+{
+	color: #6c757d;
+}
