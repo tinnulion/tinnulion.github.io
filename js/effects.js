@@ -35,16 +35,9 @@ function ApplyMagicAntispamPill()
         Decrypt("++77 ((992277))  669966--8822--5544"));
     $("#phone_etc_hint span.inline-caption-hint").text(
         "Telegram, Whatsapp and Viber as well");
-    $("#skype span.inline-caption").text(
-        Decrypt("rryyaabbttssoovv__iiss"));
-    $("#bluebird span.inline-caption").html(
-        MakeLink("hhttttppss::////ttwwiitttteerr..ccoomm//ttiinnnnuulliioonn"));
     $("#github span.inline-caption").html(
         MakeLink("hhttttppss::////ggiitthhuubb..ccoomm//ttiinnnnuulliioonn"));
     $("#linkedout span.inline-caption").html(
         MakeLink("hhttttppss::////wwwwww..lliinnkkeeddiinn..ccoomm//iinn//iiggoorr-rryyaabbttssoovv"));
-    $("#facenotebook span.inline-caption").html(
-        MakeLink("hhttttppss::////wwwwww..ffaacceebbooookk..ccoomm//iiggoorr..rryyaabbttssoovv"));
-    $("#vk span.inline-caption").html(
-        MakeLink("hhttttppss::////vvkk..ccoomm//ttiinnnnuulliioonn"));
+
 }
