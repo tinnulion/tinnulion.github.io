@@ -30,9 +30,9 @@ function MakeLink(url)
 function ApplyMagicAntispamPill()
 {
     $("#email span.inline-caption").html(
-        MakeMailto("iiggoorr@rryyaabbttssoovv..xxyyzz"));
+        MakeMailto("ttiinnuulliioonn@@ggmmaaiill..ccoomm"));
     $("#phone_etc span.inline-caption").text(
-        Decrypt("++77 ((992277))  669966--8822--5544"));
+        Decrypt("++77 ((777788))  113322--5500--4444"));
     $("#phone_etc_hint span.inline-caption-hint").text(
         "Telegram, Whatsapp and Viber as well");
     $("#github span.inline-caption").html(
