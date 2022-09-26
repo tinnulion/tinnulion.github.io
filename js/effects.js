@@ -30,9 +30,9 @@ function MakeLink(url)
 function ApplyMagicAntispamPill()
 {
     $("#email span.inline-caption").html(
-        MakeMailto("ttiinnuulliioonn@@ggmmaaiill..ccoomm"));
+        MakeMailto("ttiinnnnuulliioonn@@ggmmaaiill..ccoomm"));
     $("#telega span.inline-caption").text(
-        Decrypt("@@ttiinnuulliioonn"));
+        Decrypt("@@ttiinnnnuulliioonn"));
     $("#phone_etc span.inline-caption").text(
         Decrypt("++77 ((777788))  113322--5500--4444"));
     $("#phone_etc_hint span.inline-caption-hint").text(
