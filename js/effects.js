@@ -36,7 +36,7 @@ function ApplyMagicAntispamPill()
     $("#phone_etc span.inline-caption").text(
         Decrypt("++77 ((777788))  113322--5500--4444"));
     $("#phone_etc_hint span.inline-caption-hint").text(
-        "Telegram, Whatsapp and Viber as well");
+        "For calls within Kazakhstan!");
     $("#github span.inline-caption").html(
         MakeLink("hhttttppss::////ggiitthhuubb..ccoomm//ttiinnnnuulliioonn"));
     $("#linkedout span.inline-caption").html(
