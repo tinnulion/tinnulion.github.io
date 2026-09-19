@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Rich-link preview card for tinnulion.github.io (Telegram/WhatsApp/etc.).
+       Render to PNG:  rsvg-convert -w 1200 -h 630 images/og-card.svg -o images/og-card.png -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="-10%" r="85%">
+      <stop offset="0%" stop-color="#1c1c2a"/>
+      <stop offset="100%" stop-color="#0d0d12"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- terminal window -->
+  <rect x="70" y="64" width="1060" height="502" rx="18" fill="#15151e" stroke="#262633" stroke-width="2"/>
+  <path d="M 71 83 Q 71 65 89 65 H 1111 Q 1129 65 1129 83 V 127 H 71 Z" fill="#1a1a26"/>
+  <line x1="71" y1="128" x2="1129" y2="128" stroke="#262633" stroke-width="2"/>
+
+  <!-- traffic lights + title -->
+  <circle cx="114" cy="97" r="9" fill="#ff5f56"/>
+  <circle cx="150" cy="97" r="9" fill="#ffbd2e"/>
+  <circle cx="186" cy="97" r="9" fill="#27c93f"/>
+  <text x="600" y="104" font-family="DejaVu Sans Mono, monospace" font-size="21" fill="#8a8791" text-anchor="middle">tinnulion.github.io</text>
+
+  <!-- body -->
+  <g font-family="DejaVu Sans Mono, monospace" xml:space="preserve">
+    <text x="130" y="190" font-size="26"><tspan fill="#3fb950">$&#160;</tspan><tspan fill="#8a8791">whoami</tspan></text>
+    <text x="130" y="278" font-size="68" font-weight="bold" fill="#56d364">Igor Riabtsov</text>
+    <text x="130" y="352" font-size="26"><tspan fill="#3fb950">$&#160;</tspan><tspan fill="#8a8791">cat focus.txt</tspan></text>
+    <text x="130" y="416" font-size="42" fill="#d8d5cd">ML / AI / LLMs</text>
+    <text x="130" y="492" font-size="26"><tspan fill="#3fb950">$&#160;</tspan><tspan fill="#8a8791">ls ~/travel-log</tspan></text>
+    <text x="130" y="540" font-size="26" fill="#8a8791">one flag per country, year by year</text>
+    <rect x="678" y="514" width="17" height="32" fill="#3fb950"/>
+  </g>
+</svg>

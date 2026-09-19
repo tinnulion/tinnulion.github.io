@@ -1,0 +1,1265 @@
+# Reference data for all 209 countries and territories on this site.
+#
+#   index — 1..209, alphabetical by slug
+#   slug  — 2-char country code, use it in travel_log.yaml
+#   name  — full name, shown on the travel log tooltip
+#   area  — area in km² (approximate, from Wikidata), feeds the
+#           "of land area" stat; set an area to 0 to drop that
+#           country from the stat (e.g. Antarctica).
+#
+# This file is a lookup table — log your trips in travel_log.yaml.
+
+ad:
+  index: 1
+  slug: ad
+  name: Andorra
+  area: 468
+
+ae:
+  index: 2
+  slug: ae
+  name: United Arab Emirates
+  area: 83600
+
+af:
+  index: 3
+  slug: af
+  name: Afghanistan
+  area: 652230
+
+ag:
+  index: 4
+  slug: ag
+  name: Antigua and Barbuda
+  area: 440.29
+
+al:
+  index: 5
+  slug: al
+  name: Albania
+  area: 28748
+
+am:
+  index: 6
+  slug: am
+  name: Armenia
+  area: 29743.42
+
+ao:
+  index: 7
+  slug: ao
+  name: Angola
+  area: 1246700
+
+aq:
+  index: 8
+  slug: aq
+  name: Antarctica
+  area: 13720000  # set 0 to drop it from the land-area stat
+
+ar:
+  index: 9
+  slug: ar
+  name: Argentina
+  area: 2780400
+
+at:
+  index: 10
+  slug: at
+  name: Austria
+  area: 83878.99
+
+au:
+  index: 11
+  slug: au
+  name: Australia
+  area: 7692024
+
+az:
+  index: 12
+  slug: az
+  name: Azerbaijan
+  area: 86600
+
+ba:
+  index: 13
+  slug: ba
+  name: Bosnia and Herzegovina
+  area: 10
+
+bb:
+  index: 14
+  slug: bb
+  name: Barbados
+  area: 439
+
+bd:
+  index: 15
+  slug: bd
+  name: Bangladesh
+  area: 147570
+
+be:
+  index: 16
+  slug: be
+  name: Belgium
+  area: 30688
+
+bf:
+  index: 17
+  slug: bf
+  name: Burkina Faso
+  area: 274200
+
+bg:
+  index: 18
+  slug: bg
+  name: Bulgaria
+  area: 110993.6
+
+bh:
+  index: 19
+  slug: bh
+  name: Bahrain
+  area: 786.5
+
+bi:
+  index: 20
+  slug: bi
+  name: Burundi
+  area: 27834
+
+bj:
+  index: 21
+  slug: bj
+  name: Benin
+  area: 114763
+
+bn:
+  index: 22
+  slug: bn
+  name: Brunei
+  area: 5765.31
+
+bo:
+  index: 23
+  slug: bo
+  name: Bolivia
+  area: 1098581
+
+br:
+  index: 24
+  slug: br
+  name: Brazil
+  area: 8515767
+
+bs:
+  index: 25
+  slug: bs
+  name: Bahamas
+  area: 13878
+
+bt:
+  index: 26
+  slug: bt
+  name: Bhutan
+  area: 38394
+
+bw:
+  index: 27
+  slug: bw
+  name: Botswana
+  area: 581737
+
+by:
+  index: 28
+  slug: by
+  name: Belarus
+  area: 207596.76
+
+bz:
+  index: 29
+  slug: bz
+  name: Belize
+  area: 22966
+
+ca:
+  index: 30
+  slug: ca
+  name: Canada
+  area: 9984670
+
+cd:
+  index: 31
+  slug: cd
+  name: Democratic Republic of the Congo
+  area: 2344858
+
+cf:
+  index: 32
+  slug: cf
+  name: Central African Republic
+  area: 622984
+
+cg:
+  index: 33
+  slug: cg
+  name: Congo
+  area: 342000
+
+ch:
+  index: 34
+  slug: ch
+  name: Switzerland
+  area: 41291
+
+ci:
+  index: 35
+  slug: ci
+  name: Côte d'Ivoire
+  area: 322463
+
+cl:
+  index: 36
+  slug: cl
+  name: Chile
+  area: 756102
+
+cm:
+  index: 37
+  slug: cm
+  name: Cameroon
+  area: 475442
+
+cn:
+  index: 38
+  slug: cn
+  name: China
+  area: 9596961
+
+co:
+  index: 39
+  slug: co
+  name: Colombia
+  area: 1141748
+
+cr:
+  index: 40
+  slug: cr
+  name: Costa Rica
+  area: 51179.92
+
+cu:
+  index: 41
+  slug: cu
+  name: Cuba
+  area: 109884
+
+cv:
+  index: 42
+  slug: cv
+  name: Cabo Verde
+  area: 4033
+
+cy:
+  index: 43
+  slug: cy
+  name: Cyprus
+  area: 9242.45
+
+cyn:
+  index: 44
+  slug: cyn
+  name: Northern Cyprus
+  area: 3355
+
+cz:
+  index: 45
+  slug: cz
+  name: Czechia
+  area: 78871
+
+de:
+  index: 46
+  slug: de
+  name: Germany
+  area: 357587.77
+
+dj:
+  index: 47
+  slug: dj
+  name: Djibouti
+  area: 23200
+
+dk:
+  index: 48
+  slug: dk
+  name: Denmark
+  area: 42925.46
+
+dm:
+  index: 49
+  slug: dm
+  name: Dominica
+  area: 751.1
+
+do:
+  index: 50
+  slug: do
+  name: Dominican Republic
+  area: 48670.82
+
+dz:
+  index: 51
+  slug: dz
+  name: Algeria
+  area: 2381741
+
+ec:
+  index: 52
+  slug: ec
+  name: Ecuador
+  area: 257204.27
+
+ee:
+  index: 53
+  slug: ee
+  name: Estonia
+  area: 45335
+
+eg:
+  index: 54
+  slug: eg
+  name: Egypt
+  area: 1010407.87
+
+eh:
+  index: 55
+  slug: eh
+  name: Western Sahara
+  area: 266000
+
+er:
+  index: 56
+  slug: er
+  name: Eritrea
+  area: 117600
+
+es:
+  index: 57
+  slug: es
+  name: Spain
+  area: 505990
+
+et:
+  index: 58
+  slug: et
+  name: Ethiopia
+  area: 1104300
+
+fi:
+  index: 59
+  slug: fi
+  name: Finland
+  area: 338478.34
+
+fj:
+  index: 60
+  slug: fj
+  name: Fiji
+  area: 18274
+
+fk:
+  index: 61
+  slug: fk
+  name: Falkland Islands
+  area: 12200
+
+fm:
+  index: 62
+  slug: fm
+  name: Micronesia
+  area: 702
+
+fo:
+  index: 63
+  slug: fo
+  name: Faroe Islands
+  area: 1399
+
+fr:
+  index: 64
+  slug: fr
+  name: France
+  area: 643801
+
+ga:
+  index: 65
+  slug: ga
+  name: Gabon
+  area: 267667
+
+gb:
+  index: 66
+  slug: gb
+  name: United Kingdom
+  area: 242495
+
+gd:
+  index: 67
+  slug: gd
+  name: Grenada
+  area: 348.5
+
+ge:
+  index: 68
+  slug: ge
+  name: Georgia
+  area: 69700
+
+gh:
+  index: 69
+  slug: gh
+  name: Ghana
+  area: 238535
+
+gl:
+  index: 70
+  slug: gl
+  name: Greenland
+  area: 2166086
+
+gm:
+  index: 71
+  slug: gm
+  name: Gambia
+  area: 11300
+
+gn:
+  index: 72
+  slug: gn
+  name: Guinea
+  area: 245857
+
+gq:
+  index: 73
+  slug: gq
+  name: Equatorial Guinea
+  area: 28051
+
+gr:
+  index: 74
+  slug: gr
+  name: Greece
+  area: 131957
+
+gt:
+  index: 75
+  slug: gt
+  name: Guatemala
+  area: 108889
+
+gw:
+  index: 76
+  slug: gw
+  name: Guinea-Bissau
+  area: 36125
+
+gy:
+  index: 77
+  slug: gy
+  name: Guyana
+  area: 214970
+
+hk:
+  index: 78
+  slug: hk
+  name: Hong Kong
+  area: 1105.69
+
+hn:
+  index: 79
+  slug: hn
+  name: Honduras
+  area: 112492
+
+hr:
+  index: 80
+  slug: hr
+  name: Croatia
+  area: 56594
+
+ht:
+  index: 81
+  slug: ht
+  name: Haiti
+  area: 27750
+
+hu:
+  index: 82
+  slug: hu
+  name: Hungary
+  area: 93011.4
+
+id:
+  index: 83
+  slug: id
+  name: Indonesia
+  area: 1904570
+
+ie:
+  index: 84
+  slug: ie
+  name: Ireland
+  area: 69797
+
+il:
+  index: 85
+  slug: il
+  name: Israel
+  area: 20770
+
+in:
+  index: 86
+  slug: in
+  name: India
+  area: 3287263
+
+iq:
+  index: 87
+  slug: iq
+  name: Iraq
+  area: 437072
+
+ir:
+  index: 88
+  slug: ir
+  name: Iran
+  area: 1648195
+
+is:
+  index: 89
+  slug: is
+  name: Iceland
+  area: 103004
+
+it:
+  index: 90
+  slug: it
+  name: Italy
+  area: 302068
+
+jm:
+  index: 91
+  slug: jm
+  name: Jamaica
+  area: 10991.91
+
+jo:
+  index: 92
+  slug: jo
+  name: Jordan
+  area: 89341
+
+jp:
+  index: 93
+  slug: jp
+  name: Japan
+  area: 377972.28
+
+ke:
+  index: 94
+  slug: ke
+  name: Kenya
+  area: 581309
+
+kg:
+  index: 95
+  slug: kg
+  name: Kyrgyzstan
+  area: 199951
+
+kh:
+  index: 96
+  slug: kh
+  name: Cambodia
+  area: 181035
+
+ki:
+  index: 97
+  slug: ki
+  name: Kiribati
+  area: 811
+
+km:
+  index: 98
+  slug: km
+  name: Comoros
+  area: 2034
+
+kn:
+  index: 99
+  slug: kn
+  name: Saint Kitts and Nevis
+  area: 269.36
+
+kp:
+  index: 100
+  slug: kp
+  name: North Korea
+  area: 120540
+
+kr:
+  index: 101
+  slug: kr
+  name: South Korea
+  area: 100295
+
+kw:
+  index: 102
+  slug: kw
+  name: Kuwait
+  area: 17818
+
+kz:
+  index: 103
+  slug: kz
+  name: Kazakhstan
+  area: 2724900
+
+la:
+  index: 104
+  slug: la
+  name: Laos
+  area: 236800
+
+lb:
+  index: 105
+  slug: lb
+  name: Lebanon
+  area: 10452
+
+lc:
+  index: 106
+  slug: lc
+  name: Saint Lucia
+  area: 617.01
+
+li:
+  index: 107
+  slug: li
+  name: Liechtenstein
+  area: 160
+
+lk:
+  index: 108
+  slug: lk
+  name: Sri Lanka
+  area: 65610
+
+lr:
+  index: 109
+  slug: lr
+  name: Liberia
+  area: 111369
+
+ls:
+  index: 110
+  slug: ls
+  name: Lesotho
+  area: 30355
+
+lt:
+  index: 111
+  slug: lt
+  name: Lithuania
+  area: 65300
+
+lu:
+  index: 112
+  slug: lu
+  name: Luxembourg
+  area: 2593.05
+
+lv:
+  index: 113
+  slug: lv
+  name: Latvia
+  area: 61760.39
+
+ly:
+  index: 114
+  slug: ly
+  name: Libya
+  area: 1759541
+
+ma:
+  index: 115
+  slug: ma
+  name: Morocco
+  area: 446550
+
+mc:
+  index: 116
+  slug: mc
+  name: Monaco
+  area: 2.08
+
+md:
+  index: 117
+  slug: md
+  name: Moldova
+  area: 33843.5
+
+me:
+  index: 118
+  slug: me
+  name: Montenegro
+  area: 13883
+
+mg:
+  index: 119
+  slug: mg
+  name: Madagascar
+  area: 587295
+
+mh:
+  index: 120
+  slug: mh
+  name: Marshall Islands
+  area: 181.43
+
+mk:
+  index: 121
+  slug: mk
+  name: North Macedonia
+  area: 25713
+
+ml:
+  index: 122
+  slug: ml
+  name: Mali
+  area: 1240192
+
+mm:
+  index: 123
+  slug: mm
+  name: Myanmar
+  area: 676577.2
+
+mn:
+  index: 124
+  slug: mn
+  name: Mongolia
+  area: 1564116
+
+mo:
+  index: 125
+  slug: mo
+  name: Macao
+  area: 115.3
+
+mr:
+  index: 126
+  slug: mr
+  name: Mauritania
+  area: 1030700
+
+mt:
+  index: 127
+  slug: mt
+  name: Malta
+  area: 316
+
+mu:
+  index: 128
+  slug: mu
+  name: Mauritius
+  area: 2040
+
+mv:
+  index: 129
+  slug: mv
+  name: Maldives
+  area: 298
+
+mw:
+  index: 130
+  slug: mw
+  name: Malawi
+  area: 118484
+
+mx:
+  index: 131
+  slug: mx
+  name: Mexico
+  area: 1964375
+
+my:
+  index: 132
+  slug: my
+  name: Malaysia
+  area: 330803
+
+mz:
+  index: 133
+  slug: mz
+  name: Mozambique
+  area: 801590
+
+na:
+  index: 134
+  slug: na
+  name: Namibia
+  area: 825615
+
+nc:
+  index: 135
+  slug: nc
+  name: New Caledonia
+  area: 18576
+
+ne:
+  index: 136
+  slug: ne
+  name: Niger
+  area: 1267000
+
+ng:
+  index: 137
+  slug: ng
+  name: Nigeria
+  area: 923768
+
+ni:
+  index: 138
+  slug: ni
+  name: Nicaragua
+  area: 120340
+
+nl:
+  index: 139
+  slug: nl
+  name: Netherlands
+  area: 37378
+
+no:
+  index: 140
+  slug: no
+  name: Norway
+  area: 385207
+
+np:
+  index: 141
+  slug: np
+  name: Nepal
+  area: 147181.25
+
+nr:
+  index: 142
+  slug: nr
+  name: Nauru
+  area: 21
+
+nz:
+  index: 143
+  slug: nz
+  name: New Zealand
+  area: 268021
+
+om:
+  index: 144
+  slug: om
+  name: Oman
+  area: 309500
+
+pa:
+  index: 145
+  slug: pa
+  name: Panama
+  area: 74177.3
+
+pe:
+  index: 146
+  slug: pe
+  name: Peru
+  area: 1285216
+
+pf:
+  index: 147
+  slug: pf
+  name: French Polynesia
+  area: 4167
+
+pg:
+  index: 148
+  slug: pg
+  name: Papua New Guinea
+  area: 462840
+
+ph:
+  index: 149
+  slug: ph
+  name: Philippines
+  area: 343448
+
+pk:
+  index: 150
+  slug: pk
+  name: Pakistan
+  area: 881913
+
+pl:
+  index: 151
+  slug: pl
+  name: Poland
+  area: 312683
+
+pr:
+  index: 152
+  slug: pr
+  name: Puerto Rico
+  area: 9104
+
+ps:
+  index: 153
+  slug: ps
+  name: Palestine
+  area: 6020
+
+pt:
+  index: 154
+  slug: pt
+  name: Portugal
+  area: 92225
+
+pw:
+  index: 155
+  slug: pw
+  name: Palau
+  area: 465.55
+
+py:
+  index: 156
+  slug: py
+  name: Paraguay
+  area: 406756
+
+qa:
+  index: 157
+  slug: qa
+  name: Qatar
+  area: 11437
+
+ro:
+  index: 158
+  slug: ro
+  name: Romania
+  area: 238397
+
+rs:
+  index: 159
+  slug: rs
+  name: Serbia
+  area: 88499
+
+ru:
+  index: 160
+  slug: ru
+  name: Russia
+  area: 17075400
+
+rw:
+  index: 161
+  slug: rw
+  name: Rwanda
+  area: 26338
+
+sa:
+  index: 162
+  slug: sa
+  name: Saudi Arabia
+  area: 2250000
+
+sb:
+  index: 163
+  slug: sb
+  name: Solomon Islands
+  area: 28400
+
+sc:
+  index: 164
+  slug: sc
+  name: Seychelles
+  area: 459
+
+sd:
+  index: 165
+  slug: sd
+  name: Sudan
+  area: 1840687
+
+se:
+  index: 166
+  slug: se
+  name: Sweden
+  area: 447425.16
+
+sg:
+  index: 167
+  slug: sg
+  name: Singapore
+  area: 719.1
+
+si:
+  index: 168
+  slug: si
+  name: Slovenia
+  area: 20271
+
+sk:
+  index: 169
+  slug: sk
+  name: Slovakia
+  area: 49033.72
+
+sl:
+  index: 170
+  slug: sl
+  name: Sierra Leone
+  area: 71740
+
+sm:
+  index: 171
+  slug: sm
+  name: San Marino
+  area: 61.2
+
+sn:
+  index: 172
+  slug: sn
+  name: Senegal
+  area: 196722
+
+so:
+  index: 173
+  slug: so
+  name: Somalia
+  area: 637657
+
+sol:
+  index: 174
+  slug: sol
+  name: Somaliland
+  area: 176120
+
+sr:
+  index: 175
+  slug: sr
+  name: Suriname
+  area: 163270
+
+ss:
+  index: 176
+  slug: ss
+  name: South Sudan
+  area: 644329
+
+st:
+  index: 177
+  slug: st
+  name: São Tomé and Príncipe
+  area: 1001
+
+sv:
+  index: 178
+  slug: sv
+  name: El Salvador
+  area: 21041
+
+sy:
+  index: 179
+  slug: sy
+  name: Syria
+  area: 185180
+
+sz:
+  index: 180
+  slug: sz
+  name: Eswatini
+  area: 17364
+
+td:
+  index: 181
+  slug: td
+  name: Chad
+  area: 1284000
+
+tg:
+  index: 182
+  slug: tg
+  name: Togo
+  area: 56785
+
+th:
+  index: 183
+  slug: th
+  name: Thailand
+  area: 513119.5
+
+tj:
+  index: 184
+  slug: tj
+  name: Tajikistan
+  area: 143100
+
+tl:
+  index: 185
+  slug: tl
+  name: Timor-Leste
+  area: 14918.72
+
+tm:
+  index: 186
+  slug: tm
+  name: Turkmenistan
+  area: 491210
+
+tn:
+  index: 187
+  slug: tn
+  name: Tunisia
+  area: 163610
+
+to:
+  index: 188
+  slug: to
+  name: Tonga
+  area: 748.51
+
+tr:
+  index: 189
+  slug: tr
+  name: Turkey
+  area: 783562
+
+tt:
+  index: 190
+  slug: tt
+  name: Trinidad and Tobago
+  area: 5128
+
+tv:
+  index: 191
+  slug: tv
+  name: Tuvalu
+  area: 25.14
+
+tw:
+  index: 192
+  slug: tw
+  name: Taiwan
+  area: 36193
+
+tz:
+  index: 193
+  slug: tz
+  name: Tanzania
+  area: 947303
+
+ua:
+  index: 194
+  slug: ua
+  name: Ukraine
+  area: 603550
+
+ug:
+  index: 195
+  slug: ug
+  name: Uganda
+  area: 241038
+
+us:
+  index: 196
+  slug: us
+  name: United States of America
+  area: 9826675
+
+uy:
+  index: 197
+  slug: uy
+  name: Uruguay
+  area: 176215
+
+uz:
+  index: 198
+  slug: uz
+  name: Uzbekistan
+  area: 448978
+
+va:
+  index: 199
+  slug: va
+  name: Vatican
+  area: 0.49
+
+vc:
+  index: 200
+  slug: vc
+  name: Saint Vincent and the Grenadines
+  area: 389
+
+ve:
+  index: 201
+  slug: ve
+  name: Venezuela
+  area: 912050
+
+vn:
+  index: 202
+  slug: vn
+  name: Vietnam
+  area: 331690
+
+vu:
+  index: 203
+  slug: vu
+  name: Vanuatu
+  area: 12190
+
+ws:
+  index: 204
+  slug: ws
+  name: Samoa
+  area: 2842
+
+xk:
+  index: 205
+  slug: xk
+  name: Kosovo
+  area: 10909
+
+ye:
+  index: 206
+  slug: ye
+  name: Yemen
+  area: 455503
+
+za:
+  index: 207
+  slug: za
+  name: South Africa
+  area: 1221037
+
+zm:
+  index: 208
+  slug: zm
+  name: Zambia
+  area: 752618
+
+zw:
+  index: 209
+  slug: zw
+  name: Zimbabwe
+  area: 390757
+

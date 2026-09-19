@@ -1,96 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Igor Riabtsov — ML / AI / LLMs</title>
+  <meta name="description" content="Igor Riabtsov — ML / AI / LLMs. Travel log: the flags of every country visited, year by year.">
 
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#2d89ef">
-    <meta name="theme-color" content="#ffffff">
+  <!-- Rich link previews (Open Graph + Twitter) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Igor Riabtsov">
+  <meta property="og:url" content="https://tinnulion.github.io/">
+  <meta property="og:title" content="Igor Riabtsov — ML / AI / LLMs">
+  <meta property="og:description" content="Travel log: the flags of every country visited, year by year.">
+  <meta property="og:image" content="https://tinnulion.github.io/assets/images/og-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Terminal window: Igor Riabtsov — ML / AI / LLMs — one flag per country, year by year">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Igor Riabtsov — ML / AI / LLMs">
+  <meta name="twitter:description" content="Travel log: the flags of every country visited, year by year.">
+  <meta name="twitter:image" content="https://tinnulion.github.io/assets/images/og-card.png">
 
-    <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#3fb950">
+  <meta name="msapplication-TileColor" content="#0d0d12">
+  <meta name="theme-color" content="#0d0d12">
 
-     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
-
-    <!-- Own css & js -->
-    <link rel="stylesheet" href="/css/main.css">
-    <script src="/js/effects.js"></script>
-
-    <title>Igor Riabtsov @ Work</title>
+  <!-- Own css & js -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js" defer></script>
 </head>
-  <body class="landing">
-    <div class="container">
-      <div class="row justify-content-md-center mb-5">
-        <div class="col-xs-12 col-lg-6 text-center">
-          <div class="see-my-face mx-auto mt-3 mb-3"></div>
-          <div class="say-my-name">Igor Riabtsov</div>
-          <h1>DS&nbsp;/&nbsp;ML&nbsp;/&nbsp;DL&nbsp;/&nbsp;AI</h1>
-          <a class="cv-button btn btn-lg btn-block btn-outline-dark mx-auto" href="https://github.com/tinnulion/tinnulion.github.io/blob/00479f22d1099a8cf452327e020107d9eade1fc0/IgorRiabtsov_CV_2024_Q1.pdf">Curriculum Vitae</a>
+<body>
+  <div class="page">
+
+    <header class="hero">
+      <img class="hero-photo" src="/assets/images/igor-ryabtsov.jpg" alt="Igor Riabtsov" width="128" height="128">
+      <h1 class="hero-name">Igor Riabtsov</h1>
+      <p class="hero-tag">ML / AI / LLMs</p>
+
+      <nav class="contacts" aria-label="Contacts">
+        <ul class="contact-list">
+          <li class="contact-item" id="contact-email">
+            <svg class="contact-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <span class="contact-caption">Not email you're looking for...</span>
+          </li>
+          <li class="contact-item" id="contact-whatsapp">
+            <svg class="contact-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            <span class="contact-caption">Not WhatsApp you're looking for...</span>
+          </li>
+          <li class="contact-item" id="contact-linkedin">
+            <svg class="contact-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            <span class="contact-caption">Not LinkedIn you're looking for...</span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="travels" aria-label="Travel log">
+        <h2 class="section-label"><span class="marker" aria-hidden="true"># </span>Travel log</h2>
+        <div id="travel-log">
+          <noscript>
+            <p class="fallback">The travel log needs JavaScript — enable it.</p>
+          </noscript>
         </div>
-      </div>
-      <div class="row justify-content-md-center mb-2">
-        
-        
-        <div id="email" class="col-xs-12 col-lg-6 contact-info-item magic-padding-contacts">
-          <img class="inline-logo" src="/icons/email.png" alt="" />
-          <span class="inline-caption">Hey, dude, I cannot see this email!</span>
-        
-        </div>
-        <div class="w-100"></div>
-        
-        <div id="telega" class="col-xs-12 col-lg-6 contact-info-item magic-padding-contacts">
-          <img class="inline-logo" src="/icons/telega.png" alt="" />
-          <span class="inline-caption">Hey, dude, I cannot see this whatever it is!</span>
-        
-        </div>
-        <div class="w-100"></div>
-        
-        
-        <div id="phone_etc" class="col-xs-12 col-lg-6 contact-info-item magic-padding-contacts">
-          <img class="inline-logo" src="/icons/phone.png" alt="" />
-          <span class="inline-caption">Well, that`s because of JavaScript turned off.</span>
-        
-        </div>
-        <div class="w-100"></div>
-        
-        
-        <div id="phone_etc_hint" class="col-xs-12 col-lg-6 contact-info-item-hint magic-padding-contacts">
-          <div class="inline-logo-fake"></div>
-          <span class="inline-caption-hint">FYI: JavaScript serves all dynamic content in a browser!</span>
-        
-        </div>
-        <div class="w-100"></div>
-        
-        
-        <div id="github" class="col-xs-12 col-lg-6 contact-info-item magic-padding-contacts">
-          <img class="inline-logo" src="/icons/github.png" alt="" />
-          <span class="inline-caption">And help protect info from spammers</span>
-        
-        </div>
-        <div class="w-100"></div>
-        
-        
-        <div id="linkedout" class="col-xs-12 col-lg-6 contact-info-item magic-padding-contacts">
-          <img class="inline-logo" src="/icons/linkedout.png" alt="" />
-          <span class="inline-caption">You're not spammer, aren't you?</span>
-        
-        </div>
-        <div class="w-100"></div>
-        
-      </div>
-    </div>
-  </body>
+        <p class="stats" id="stats" hidden></p>
+      </section>
+    </main>
+
+  </div>
+</body>
 </html>
